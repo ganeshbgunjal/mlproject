@@ -10,6 +10,9 @@ from dataclasses import dataclass #used to create data classes in Python.
 from src.components.data_transformation import DataTransformation
 from src.components.data_transformation import DataTransformationConfig
 
+from src.components.model_trainer import ModelTrainer
+from src.components.model_trainer import ModelTrainerConfig
+
 
 @dataclass  #data class is a decorator that is used to create data classes in Python.
 class DataIngestionConfig:  
